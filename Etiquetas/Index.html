@@ -1,31 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E t i q u e t a s  html </title>
+    <title>E t i q u e t a s html </title>
+    <style>
+        li{
+            color: aqua;
+        }
+
+    </style>
 </head>
+
 <body>
     <h1>Etiquetas HTML</h1>
     <p>Existen otros tipos de etiqutas para crear una página web en HTML5 que nos permiten encuadrar otros
-        elementos dentro de las páginas web. Algunas de las más usadas son: 
+        elementos dentro de las páginas web. Algunas de las más usadas son:
     </p>
     <ol>
-        <li>
-            <h3>&lt;a></h3>
+        <li> <h3>&lt;a></h3> </li>
             <p>Permite anclar una dirección URL <br>
                 Ejemplo
             </p>
             <a href="http://google.com">Soy un link</a>
-        </li>
+    
         <li>
             <h3>&lt;abbr></h3>
-            <p>Representa una abreviación o acronimo el atributo opcional title puede ampliar o describir la abrebiatura,
-                si esta presente el atributo title tiene que contener la descripción completa y nada más
-                Ejemplo: </p>
-            <p> Yo hago <abbr title="Hypertext Markub Language">HTLM</abbr></p>
         </li>
+        <p>Representa una abreviación o acronimo el atributo opcional title puede ampliar o describir la abrebiatura,
+            si esta presente el atributo title tiene que contener la descripción completa y nada más
+            Ejemplo: </p>
+        <p> Yo hago <abbr title="Hypertext Markub Language">HTLM</abbr></p>
+
+
+        <li>
+            <h3>&lt;address></h3>
+        </li>
+        <p>Define la información de contacto del autor/propietario de un documento u artículo. <br>
+            Ejemplo:
+        </p>
+        <address> Escrito por <a href="https://github.com/IsaiEDC">Isai</a> </address>
+        <li>
+            <h3>&lt;article></h3>
+        </li>
+        <p>Un artículo debe tener sintido por sí mismo y debe ser posible distriburilo independientemente del resto <br>
+            del sitio. <br>
+            Fuentes potenciales para el elemto article:
+        </p>
+        <article>
+            <ul>
+                <li> Publicación en el foro</li>
+                <li>Entrada en el blog</li>
+                <li>Noticia</li>
+            </ul>
+            <p>
+                <b>NOTA:</b> &lt;article> no se muestra como algo especial en un navegaror.Sin embargo, puede usar CSS para <br>
+                    darle diseño
+            </p>
+            <a href="example/article.html"> Ejemplo article con css</a>
+        </article>
+
+
+
     </ol>
 </body>
+
 </html>
