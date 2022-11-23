@@ -18,12 +18,14 @@
         elementos dentro de las páginas web. Algunas de las más usadas son:
     </p>
     <ol>
-        <li> <h3>&lt;a></h3> </li>
-            <p>Permite anclar una dirección URL <br>
-                Ejemplo
-            </p>
-            <a href="http://google.com">Soy un link</a>
-    
+        <li>
+            <h3>&lt;a></h3>
+        </li>
+        <p>Permite anclar una dirección URL <br>
+            Ejemplo
+        </p>
+        <a href="http://google.com">Soy un link</a>
+
         <li>
             <h3>&lt;abbr></h3>
             <p>Representa una abreviación o acronimo el atributo opcional title puede ampliar o describir la
@@ -32,26 +34,93 @@
                 Ejemplo: </p>
             <p> Yo hago <abbr title="Hypertext Markub Language">HTLM</abbr></p>
         </li>
+        <li>
         <h3>&lt;adress></h3>
         <p>Define la información de contacto del autor/propietario de un documento u artículo. <br>
             Ejemplo: <br>
         <address> Escrito por: <a href="https://github.com/Rosario1607">Rosario</a></address>
         </p>
+        </li>
+        <li>
         <h3>&lt;article></h3>
         <p> Un artículo debe tener sintido por sí mismo y debe ser posible distribuirlo independientemente del resto
             del sitio. <br>
             Fuentes potenciales para el elemto article:
-            <ul>
-                <li>Publicación en el foro</li>
-                <li>Entrada en el blog</li>
-                <li>Noticia</li>
+        <ul>
+            <li>Publicación en el foro</li>
+            <li>Entrada en el blog</li>
+            <li>Noticia</li>
 
+        </ul>
+
+        <p> <b>NOTA:</b> &lt;article> no se muestra como algo especial en un navegaror.Sin embargo, puede usar CSS para
+            darle diseño <br><br>
+            <a href="example/article.html">Ejemplo article con css</a>
+        </p>
+        </li>
+        <li>
+            <h3>&lt;aside></h3>
+            <p>Define algún contenido además del contenido en el que se coloca. El contenido aparte debe estar
+                indirectamente relacionado con el contenido circulante. <br>
+                
+                <b>Sugerencia:</b> aside se coloca a menudo como una barra lateral en un documento.
+                <b>Nota:</b> elemento no se muestra como algo especial en el navegador. Sin embargo, puede usar CSS para
+                diseñar el aside.
+                <a href="example/aside.html">Ejemplo aside con CSS</a>
+             </p>
+        </li>
+        <li>
+            <h3>&lt;audio></h3>
+            <p>Agrega controles de audio, como reproducción, pausa y volumen. El <source> permite especificar
+                archivos de audio alternativos dentro los que puede elegir el navegador. <br>
+                
+                <b>Ejemplo:</b> 
+                <audio controls>
+                    <source src="audio/teclado-mecanografia.mp3">
+                </audio>  
+             </p>
+        <li>    
+            <h3>&lt;button></h3>
+            <p>Define un botón en el que se puede hacer clic. <br>
+                Dentro de un <&lt;button> puedes poner texto y etiquetas como <&lt;i>,<&lt;b>,<&lt;strong>,<&lt;img>, etc ). !Eso no es
+                posible con un botón creado con el <&lt;input> <br>
+                <b>Sugerencia:</b> Especifique siempre el type de un <&lt;button>, para indicar a los navegadores qué tipo de botón
+                es. <br> <br>
+                <b>Consejo:Puede diseñar botones facilmente con CSS</b> <br> <br>  
+                Ejemplo: <br> <br>
+                <button>Botón 1</button>
+                <button>Botón 2</button>
+             </p>
+        </li>
+        <li>    
+            <h3>&lt;form></h3>
+            <p> Es un contenedor para diferentes tipo de elementos de entrada, como: campos de texto, casillas de
+                verificación, botones de opción, botones de envío, etc. <br>
+            <ul>
+                <li><&lt;input type="text"></li> <br> <br>
+                Muestra un campo de entrada de texto de una solo linea <br> <br>
+                <li><input type="text"></li> <br> <br>
+                <&lt;input type="radio"> <br> <br>
+                Muestra un botón de radio(para selecionar una de muchas opciones) <br> <br>
+                <input type="radio"><input type="radio"><input type="radio"> <br> <br>
+                <&lt;input type="checkbox"> <br> <br>
+                Muestra una casilla de verificación(para selecionar cero o más opciónes) <br> <br>
+                <input type="checkbox"><input type="checkbox"> <br> <br>
+                <&lt;input type="submit"> <br> <br>
+                Muestra un botón de envio (para enviar el formulario) <br> <br>
+                <input type="submit">
+                Enviar
+                <&lt;input type="button"> <br> <br>
+                Muestra un botón en e que sepuede hacer clic <br> <br>
+                <input type="button"> <br> <br> 
             </ul>
-            
-            <p> <b>NOTA:</b> &lt;article> no se muestra como algo especial en un navegaror.Sin embargo, puede usar CSS para
-            darle diseño
-            Ejemplo article con css</p>
+                 </p>
+
+           
+             </p>
+        </li>
     </ol>
+
 </body>
 
 </html>
