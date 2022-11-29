@@ -43,7 +43,7 @@
                 abrebiatura,
                 si esta presente el atributo title tiene que contener la descripción completa y nada más
                 Ejemplo: </p>
-            <p> Yo hago <abbr title="Hypertext Markub Language">HTLM</abbr></p>
+            <p> Yo hago <abbr title="Hypertext Markup Language">HTLM</abbr></p>
         </li>
         <li>
         <h3>&lt;adress></h3>
@@ -66,7 +66,7 @@
 
         <p> <b>NOTA:</b> &lt;article> no se muestra como algo especial en un navegaror.Sin embargo, puede usar CSS para
             darle diseño <br><br>
-            <a href="example/article.html">Ejemplo article con css</a>
+            <a href="example/article.html">Ejemplo article con CSS</a>
         </p>
         </li>
         <li>
@@ -104,7 +104,7 @@
              </p>
         </li>
         <li>  
-            <h3><&lt;form></h3>
+            <h3>&lt;form></h3>
             <p> Es un contenedor para diferentes tipo de elementos de entrada, como: campos de texto, casillas de
                 verificación, botones de opción, botones de envío, etc. <br>
             <ul>
@@ -129,7 +129,7 @@
         </li> 
         
         <li>            
-            <h3>&lt;footer</h3>
+            <h3>&lt;footer></h3>
             <p>Define un pie de página para un documento o sección <br>
                 Normalmente contiene: <br>
                 <ul>
@@ -145,20 +145,27 @@
             </p>
         </li>
         <li>
-            <h3><&lt;header</h3>
+            <h3>&lt;header></h3>
             <p> Representa un contenedor de contenido introductorio o un conjunto de enlaces de navegación. <br>
                 Normalmente contiene: <br>
                 <ul>
-                    <li>Uno o más elementos de encabezado (<&lt;h1> - <&lt;h6>)</li>
+                    <li>Uno o más elementos de encabezado (&lt;h1> - &lt;h6>)</li>
                     <li>Logotipo o icono</li>
                     <li>Información de autoría</li> <br>
                 </ul>
-                <b>NOTA:</b> tener varios <&lt,header> en un documento HTML. Sin embargo, no sepuede colocar
-                dentro de un <&lt;footer>, <&lt;address> u otro <&lt;header> <br> <br>
+                <b>NOTA:</b> tener varios &lt,header> en un documento HTML. Sin embargo, no sepuede colocar
+                dentro de un &lt;footer>, &lt;address> u otro &lt;header> <br> <br>
                 Ejemplo <br> 
                 <h1> <b> Encabezado de la página principal aquí</b></h1> <br>
                 Publicado el 17/08/2022
         </li>   
+        <li>
+            <h3>&lt;hgroup></h3>
+            <p>Generalmente se usa para agrupar un conjunto de uno o más elementos &lt;h1> - &lt;h6>, para agrupar, por
+                ejemplo, un titulo de sección y un subtitulo adjunto. <br> <br>
+                Ejemplo <hgroup><a href="example/hgroup.html"></a></hgroup>
+             </p>
+        </li>
         <li>
             <h3>&lt;h1 font-size h6></h3>
             <p>Se utilizan para definir encabezados HTML. <br>
@@ -166,7 +173,75 @@
             <h1 style=background-color:#1E90FF;>Hola mundo</h1>
             <h6 style="color:#FF6347;">hola mundo</h6>
              </p>
-        </li>    
+        </li> 
+        <li>
+            <h3>&lt;img></h3>
+            <p>Se utiliza para incrustar una imagen en una página <b>HTLM</b> <br>
+                Técnicamente, las imágenes no se insertan en una página web; las imágenes están vinculadas a páginas
+                web. La etiqueta &lt;img> crea un espacio de espera para la imagen de referencia. <br>
+                Tiene atributos obligatorios: <br> <br>
+                <ul>
+                    <li>src: especifica la ruta a la imagen</li>
+                    <li>alt: especifica un texto alternativo para la imagen, si la imagen por algún motivo no se puede
+                mostrar</li> <br> <br>
+                </ul>
+                Ejemplo &lt;img> <img src="example/img.html" alt=""></img>
+            </p>
+        </li> 
+        <li>
+            <h3>&lt;map></h3>
+            <p>Se utiliza para definir un mapa de imagen, es una imagen con áreas en las que se puede hacer clic.
+               El atributo de nombre requerido del &lt;map> esta asociado con el atributo usemap de &lt;img> y crea una
+               relación entre la imagen y el mapa. <br>
+               Ejemplo map  <map img src="example/map.html" usemap=""></map>
+            </p>
+        </li> 
+        <li>
+            <h3>&lt;nav></h3>
+            <p> Define un conjunto de enlaces de navegación. <br>
+                Tenga en cuenta que NO todos los enlaces de un documento deben estar dentro de un &lt;nav>. Este
+                elemento está destinado solo para el bloque principal de enlaces de navegación. <br>
+                Ejemplo <br>
+                <nav
+                (a href="https://www.google.com">Gloogle</a> | Youtube <a href="https://www.youtube.com"></a> 
+                | GitHub <a href="https://github.com"></a> | EDC
+                </nav>
+            </p>
+        </li>
+        <li>
+            <h3>&lt;p></h3>
+            <p>Define un párrafo. <br>
+                Los navegadores agregan automáticamente una línea en blanco antes y después de cada <&lt;p> <br>
+                Ejemplo p <a href="example/p.html"></a>
+            </p>
+        </li>
+        <li>
+            <h3>&lt;script></h3>
+            <p> Se utiliza para incrustar un script del lado del cliente <b>JavaScript</b> <br>
+                Contiene declaraciones de secuencias de comandos o apunta a un archivo de secuencia de comandos
+                externos a través del atributo <b>src</b> <br>
+                Los usos comunes de <b>JavaScript</b> son manipulación de imágenes, la validación de formularios y los
+                cambios dinámicos de contenido. <br>
+                <b>Nota:</b> <em>cuando un navegador lee una hoja de estilo, formateará el documento HTML de acuerdo con la
+                información de la hoja de estilo. Si se han definido algunas propiedades para el mismo selector
+                (elemento) en diferentes hojas de estilo, se utilizará el valor de la última hoja de estilo leída (consulte el
+                ejemplo a continuación).</em> <br>
+                <a href="example/script.html"Ejemplo script></a>
+            </p>
+        </li>
+        <li>
+            <h3>&lt;style></h3>
+            <p>Se utiliza para definir la información de estilo <b>CSS</b> de un documento. <br>
+                Dentro de <&lt;style>, especifica cómo deben mostrarse los elementos <b>HTML</b> en un navegador. <br>
+                Ejemplo 
+            </p>  
+        </li> 
+         <li>
+            <h3>&lt;section></h3>
+            <p>Define una sección en un documento. <br>
+                Ejemplo section <a href="example/section.html"></a>
+            </p>
+         </li>       
     </ol>
 
 </body>
