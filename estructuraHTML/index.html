@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        header{ 
+        header,
+        section,
+        aside,
+        article,
+        footer,nav {
             text-align: center;
             font-size: large;
-            background-color: pink;
+            /*background-color: pink;*/
             border: solid green 1px;
             border-radius: 15px;
+            margin: 5px
         }
-        section{ 
+
+        div {
+            display: flex;
+        }
+        section {
+            width:40%;
+            background-color: #FFF5CE;
+        }
+        nav{
+            width: 20%;
+            background-color: #F7D1D5;
+        }
+        aside{
+            width: 40%;
+            background-color: #DEDCE6;
+        }
+        footer { background-color: #CEF2FF;}
+        header {background-color: #E8F2A1;}
+
+        /* section{ 
             text-align: center;
             font-size: large;
             background-color: yellow;
@@ -40,44 +65,47 @@
             background-color: olivedrab;
             border: solid green 1px;
             border-radius: 15px;
-        }
+        }*/
     </style>
 </head>
 
 <body>
-    <header> 
+    <header>
         <h1>Título del Encabezado</h1>
         <p>Texto del Encabezado</p>
     </header>
-    <section>
-        <ul>
-            <li>Elemento 1</li>
-            <li>Elemento 2</li>
-            <li>Elemento 3</li>
-            <li>Elemento 4</li>
-            <li>Elemento 5</li>
-            <li>Elemento 6</li>
-        </ul>
-    </section>
-    <section>
-        <article>
-            <h1>Título del artículo 1</h1><br>
-            <h3>Texto del artículo 1</h3><br>
-        </article>
-        <article>
-            <h1>Título del artículo 2</h1><br>
-            <h3>Texto del artículo 2</h3><br>
-        </article>
-    </section>
-    <aside>
-        <h1>Título del Aside</h1><br>
-        <p>Contenido del Aside</p>
-    </aside>
-    <footer>
+    <div>
+        <nav>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+                <li>Elemento 4</li>
+                <li>Elemento 5</li>
+                <li>Elemento 6</li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <h1>Título del artículo 1</h1>
+                <p>Texto del artículo 1</p>
+            </article>
+            <article>
+                <h1>Título del artículo 2</h1>
+                <p>Texto del artículo 2</p>
+            </article>
+        </section>
+        <aside>
+            <h1>Título del Aside</h1><br>
+            <p>Contenido del Aside</p>
+        </aside>
+    </div>
+    <footer> 
         <h6>Texto de pie de página</h6>
     </footer>
 
 
-    
+
 </body>
+
 </html>
