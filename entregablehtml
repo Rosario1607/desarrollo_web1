@@ -7,8 +7,26 @@
     <title>EntregarHTML</title>
 </head>
 <body>
-    <head font size: large>ENCABEZADO NIVEL 1</head>
-    
+    <head font size: large>
+        <h1>ENCABEZADO NIVEL 1</h1>
+    </head>
+    <nav>ENLACE 1 ENLACE 2 ENLACE 3 ENLACE </nav>
+    <div>
+        <head>Encabezado nivel 2</head>
+            <p>Aquí va texto del primer párrafo</p>
+            <p>Aquí va texto del segundo parrafo</p>
+    </div>
+    <aside>
+        <h1>Apartado</h1>
+        <p>Elija una opción </p>
+        <input type="checkbox": Opción 1; 
+        <input type="checkbox": Opción 2;
+        <input type="checkbox": Opción 3;
+        <button>Enviar</button>
+    </aside>
+    <footer>
+        <p>Sección de contacto, derechos de autor, etc. </p>
+    </footer>
 </body>
 </html>
 
