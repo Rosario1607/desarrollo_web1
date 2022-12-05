@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EntregarHTML</title>
+    <style> header, div, aside,footer {text-aline:center}
+
+</head>
+<body>
+background-color:#322E2F;
+    <header background-color:#322E2F; font size: large; font-color:#322E2F>
+        <h1>ENCABEZADO NIVEL 1</h1>
+        <nav> background-color:#C7DDCC; <a href="http://google.com">ENLACE 1</a><a href="https://www.facebook.com">ENLACE 2</a>
+              <a href="https://www.instagram.com> ENLACE 3</a><a href="https://twitter.com"> ENLACE 4</>
+        </nav>
+    </header>
+    <div>
+    background-color:#FFB666; whith 75%
+        <h3> <b>Encabezado nivel 2</b></h3>
+            <p>Aquí va texto del primer párrafo</p>
+            <p>Aquí va texto del segundo parrafo</p>
+    </div>
+    <aside> 
+    background-color:#FFB666;
+        <h1><b>Apartado</b></h1>
+        <p>Elija una opción </p>
+        <input type="checkbox": Opción 1; 
+        <input type="checkbox": Opción 2;
+        <input type="checkbox": Opción 3;
+        <button>Enviar</button>
+    </aside>
+    <footer>
+    background-color:#FFB666;
+        <p>Sección de contacto, derechos de autor, etc. </p>
+    </footer>
+</body>
+</html>
