@@ -1,74 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EntregarHTML</title>
     <style>
-            header,
-            div,
-            aside,
-            footer {text-align: center; 
-                margin: 5px;   
+        header,
+        div,
+        aside,
+        footer {
+            text-align: center;
+            margin: 5px;
         }
+
         div {
-            background-color:#12A4D9;
+            background-color: #12A4D9;
             width: 70%;
             border: solid#C7DDCC 3px;
         }
-        aside{
+
+        aside {
             width: 20%;
-            background-color:#FFB666;
+            background-color: #FFB666;
             border: #C7DDCC 3px;
         }
+        a{
+            color:black;
+            text-decoration: none;
+            font-size: 30px;
+        }
+    </style>
+</head>
 
-    </style>    
-    </head>
-    <body 
-        style="background-color:#75C9B7;"> 
-        <header
-        style="background-color:#322E2F;
-        font size: large;
-        padding: 15px;
-        border:3px 
-        margin:3px;">
+<body style="background-color:#75C9B7;">
+    <header style="background-color:#322E2F; font-size: large; padding: 15px; border:3px; margin:3px;">
         <h1 style="color:#c7ddcc">ENCABEZADO NIVEL 1</h1>
         <nav style="background-color:#C7DDCC;
         padding:  10px;
         border: 3px;
-        margin:3px;">
-        <a href="https://google.com">ENLACE 1</color:></a><a href="https://www.facebook.com">ENLACE 2</a>     
-        <a href="https://www.instagram.com>">ENLACE 3</a><a href="http://twitter.com"> ENLACE 4</a>
-    
+        margin:3px; 
+        justify-content: space-between; 
+        display: flex;
+        padding: 0px 120px 0px 120px;">
+            <a href="https://google.com">ENLACE 1</a>
+            <a href="https://www.facebook.com">ENLACE 2</a>
+            <a href="https://www.instagram.com>">ENLACE 3</a>
+            <a href="http://twitter.com"> ENLACE 4</a>
+
         </nav>
-        </header>
-    <div 
-        style="background-color:#12A4D9;
-        border:3px; solid #c7ddcc;
-        padding: 15px;
-         width: 250;
-         height: 250px;">
-        <h3><b>Encabezado nivel 2</b></h3><p>Aquí va texto del primer párrafo</p>
-        <p>Aquí va texto del segundo parrafo</p>
-    </div>
-    <aside style="background-color:#FFB666;
-         border:3px; solid #c7ddcc;
-         padding: 15px;
-         margin: 1px 2px 3px 4px
-         width 50%;
-         height: 250px;">
-        <h1><b>Apartado</b><br>
-        </h1><p>Elija una opción </p><br>
-        <ul>
-        <input type="checkbox": <p> Opción 1</p>
-        <input type="checkbox": <p> Opción 1</p>
-        <input type="checkbox": <p> Opción 1</p>
-        </ul>
-        <button>Enviar</button>
-    </aside>
-    <footer style="background-color:#e2d810"; padding="20px">
-        <p>Sección de contacto, derechos de autor, etc. </p>
-        </footer>
-    </body>
-        </html>
+    </header>
+    <main style="display: flex;">
+        <div style="background-color:#12A4D9; border:3px solid #c7ddcc; padding: 15px;  width: 80%;  height: 250px;">
+            <h3><b>Encabezado nivel 2</b></h3>
+            <p>Aquí va texto del primer párrafo</p>
+            <p>Aquí va texto del segundo parrafo</p>
+        </div>
+        <aside
+            style="background-color:#FFB666;border:3px solid #c7ddcc;padding: 15px;margin: 1px 2px 3px 4px;width:20%;height: 250%;">
+            <h1><b>Apartado</b><br>
+            </h1>
+            <p>Elija una opción </p><br>
+            <ul>
+                <input type="checkbox" : <p> Opción 1</p>
+                <input type="checkbox" : <p> Opción 1</p>
+                <input type="checkbox" : <p> Opción 1</p>
+            </ul>
+            <button>Enviar</button>
+        </aside>
+    </main>
+    <footer style="background-color:#e2d810; padding:20px; height: 60pxf ">
+        <h3>Sección de contacto, derechos de autor, etc. </h3>
+    </footer>
+</body>
+
+</html>
