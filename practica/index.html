@@ -10,9 +10,23 @@
         a{
             color:black;
             text-decoration: none;
-            font-size: 30px;
-        }    
+            font-size: 10px;
+        }   
+        .cdmx{
+            background: url(../practica/img/hero.jpg)100%/ cover no-repeat;
+            height: 338px;
+            display: flex;
+            padding: 80px 0px 0px 200px; /* arriba der abajo izq*/
+        }
+        .cdmx img{
+            width: 40px;
+            background-color: bisque;
+        } 
         p{color: white;}
+        footer {
+            text-align: center;
+            margin: 5px;
+        }
     </style>
 </head>
 <body style="background-color: aquamarine;">
@@ -22,20 +36,35 @@
     <nav style="background-color: rgb(226, 43, 58);
         justify-content: space-between; 
         display: flex;
-        padding: 0px 120px 0px 120px;">
-        <a href="https://cdmx.gob.mx"Residentes></a><a href="https://siapem.cdmx.gob.mx"Negocios></a>
-        <a href="https://mexicocity.cdmx.gob.mx"Visitantes></a><a href="https://gobierno.cdmx.gob.mx"Gobierno></a>
+        margin-left: 50%;>
+       /* padding: 0px 120px 0px 120px;">*/
+        <a href="https://cdmx.gob.mx">
+            Residentes
+        </a>
+        <a href="https://siapem.cdmx.gob.mx">
+            Negocios
+        </a>
+        <a href="https://mexicocity.cdmx.gob.mx">
+            Visitantes
+        </a>
+        <a href="https://gobierno.cdmx.gob.mx">
+            Gobierno
+        </a>
     </nav><br>
-    <section>
-         <img src="img/hero.jpg" alt="heroe" sizes="100%" srcset="cover no repit"> 
-         <img src="img/hero-vector.svg" alt="viñeta flecha"
-        <p><b>A PROGRAMAR</b> <br>
-        <p>EN LAS ESCUELAS <br>
-        DE CÓDIGO <br>
-        DE LA CDMX</p>
-
-
+    <section class="cdmx">    
+         <!-- <img src="img/hero.jpg" alt="heroe" sizes="100%" srcset="cover no repit">  -->
+         <div><img src="img/hero-vector.svg" alt="viñeta flecha"></div>
+         <p>PARA PROGRAMAR <br>
+            EN LAS ESCUELAS <br>
+            DE CÓDIGO <br>
+            DE LA CDMX</p>
     </section>
-    
+    <footer>
+        <h1>
+            ¿Quién se puede inscribir?
+        </h1>
+        <h6><b> Cualquier persona que quiera aprender a programar código y cuente con 4-8 horas disponibles a la semana</b></h6>
+        <h6>*menores de edad deberan entrar a las instalaciones acompañados de un adulto</h6>
+    </footer>
 </body>
 </html>
