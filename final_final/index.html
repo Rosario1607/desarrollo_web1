@@ -11,15 +11,15 @@
         a{color: black;
           text-decoration: none;
           font-size: 16px;
+          margin-left: 10px;
         }
-        nav {background-color: aquamarine;
-            width: 60%; 
-            justify-content: space-between;
+        nav {
+            background-color: aquamarine; 
             color: black;
             text-decoration: none;
-             margin-left: 1%;
-             padding-right: 5px;
-             padding-top: 5px;}
+            margin-top: 10px;
+
+        }
          div{text-decoration: none;}    
              .t1 {
                 background-color: #016241;
@@ -28,42 +28,62 @@
              }
              section {
                 display: flex;
+                margin-top: 30px;
+                margin: bottom 30px;
             }
              .t2 
                 {
-                width: 100%; 
+                width: 50%; 
                 background-color: #D40032;  
                 color: white; 
-             text-align: center;
+             text-align:center;
+             padding: 100px 10px 10px 10px;
                 }
              .t3{
-                width: 100%;
+                width: 50%;
                 background-color: #D40032;  
                 color: white; 
              text-align: center;
-                } 
+             padding: 100px 20px 20px 20px;
+                }
+            .ciervo{
+                width: 50%;
+            } 
+            .armadillo{
+                width:50%
+            }
+            footer{
+                margin-top: 30px;
+                display: flex;
+            }
+            .logos{
+                width: 40px;
+            }
     </style>
 </head>
-    <heder style="display: flex;">
-    <a href="#home"><img style="width: 40px;" src="img/pngwing.com.png"></a> alt="icono maya"
-    <nav>
-        <a href="#arte">
-            ARTE
-        </a>
-        <a href="#colecciones">
-            COLECCIONES
-        </a>
-        <a href="#conocenos">
-            CONOCENOS
-        </a> 
-    </nav>
-    <div style="display: flex;">   
-        <button style="border: 3px; border-color: black;  border-radius:20px;>
-            <a style="color: white";  href="#iniciarsesion">
-                Iniciar sesión
+    <heder style="display: flex; justify-content: space-between;">
+    <div style="display: flex;">
+        <a href="#home"><img class="logos" src="img/pngwing.com.png"></a>
+        <nav>
+            <a href="#arte">
+                ARTE
             </a>
+            <a href="#colecciones">
+                COLECCIONES
+            </a>
+            <a href="#conocenos">
+                CONOCENOS
+            </a>
+        </nav>
+    </div>
+    <div style="display: flex;">   
+        <button style="border:solid black 3px;  border-radius:20px;">
+            <a style="color: black;" href="#iniciarsesión">
+                Iniciar sesión
+            </a>    
         </button>
-        <button style="background-color:black; border-radius:20px";><a style="color: white"; href="#registrate">
+        <button style="background-color:black; border-radius:20px";><a style="color: white"
+             href="#registrate">
             Registrate
         </a>
         </button> 
@@ -78,17 +98,17 @@
     </div> 
   <section>  
     <div class="ciervo">
-        <img style="width:100%;"  src="img/alebrijes-en-oaxaca-940x626.jpg">    
+        <img src="img/alebrijes-en-oaxaca-940x626.jpg">    
     </div>
     <aside class="t2">
         <h1>ALEBRIJES</h1>
         <h1>MEXICANOS</h1>
         <H3>Tallados en madera cumplen con las más</H3>
         <h3>altas exigencias en diseño</h3><br><br>
-        <button style="background-color: #D40032;  border-color: white; border: 4px; border-radius: 20px;">
-            <a style="color: white;" href="#hastupedido">
-        Has tu pedido
-        </a>
+        <button style="background-color: #D40032; border:solid white 3px; border-radius: 20px;">
+         <a style="color: white" href="#hastupedido1">
+            Has tu pedido
+         </a>   
         </button>
     </aside>
   </section>
@@ -96,19 +116,22 @@
     <div class="t3">
         <h1>CREATIVIDAD E</h1><Br>
         <h1>IMAGINACIÓN</h1>
-        <h3>Un sueño hecho realidaad</h3>
-        <button style="background-color: #D40032;  border-color: white; border: 4px; border-radius: 20px;">
-            <a style="color: white;" href="#hastupedido2">
-        Has tu pedido
+        <h3>Un sueño hecho realidaad</h3><br><br>
+        <button style="background-color: #D40032;  border:solid white 3px; border-radius: 20px;">
+        <a style="color: white;" href="#hastupedido2">
+         Has tu pedido
         </a>
         </button>
     </div>
     <aside class="armadillo">
-        <img style="width:100%;"  src="img/alebrijes-en-oaxaca-940x626.jpg">
+        <img src="img/alebrijes-en-oaxaca-940x626.jpg">
     </aside>
   </section>  
     <footer>
-
+        <a href="#spotify"><img class="logos" src="img/spotify.png"></a>
+        <a href="#facebook"><img class="logos" src="img/facebook-new.png"></a>
+        <a href="#pinterest"><img class="logos" src="img/pinterest.png"></a>
+        <a href="#twitter"><img class="logos" src="img/twitter--v1.png"</a>
     </footer>
 </body>
 </html>
