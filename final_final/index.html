@@ -5,60 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrega_final</title>
-    <style>
-        header{display: flex;
-        }
-        a{color: black;
-          text-decoration: none;
-          font-size: 16px;
-          margin-left: 15px;
-        }
-        nav {
-           /* background-color: aquamarine;*/
-            color: black;
-            text-decoration: none;
-            margin-top: 10px;
-            margin-right: 35px;
-
-        }
-         div{text-decoration: none;}    
-             .t1 {
-                background-color: #016241;
-                color: white;
-                text-align: center;
-                font-size: xx-large;
-                font-weight: bolder;
-             }
-             section {
-                display: flex;
-                margin-top: 30px;
-                margin: bottom 30px;
-            }
-             .t2, .t3 
-                {
-                width: 50%; 
-                background-color: #D40032;  
-                color: white; 
-                text-align:center;
-                font-size: xx-large;
-                padding: 30px 0px 10px 10px;
-                }
-            .ciervo{
-                width: 50%;
-            } 
-            .armadillo{
-                width: 50%;
-            }
-            footer{
-                /*background-color: aquamarine;*/
-                margin-top: 40px;
-                border-top: 20px solid #ec1313  
-                padding: 0px 0px 0px 50px;
-            }
-            .logos{
-                width: 40px;
-            }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
     <heder style="display: flex; justify-content: space-between;">
     <div style="display: flex;">
@@ -76,16 +23,8 @@
         </nav>
     </div>
     <div style="display: flex;">   
-        <button style="border:solid black 3px;  border-radius:20px;margin-right: 50px;">
-            <a style="color: black;" href="#iniciarsesión">
-                Iniciar sesión
-            </a>    
-        </button>
-        <button style="background-color:black; border-radius:20px; margin-right: 30px;"><a style="color: white"
-             href="#registrate">
-            Registrate
-        </a>
-        </button> 
+        <button class="btn">Iniciar sesión</button>
+        <button class="btn">Registrate</button> 
     </div>
 </heder>
     <div class="t1">
@@ -97,18 +36,14 @@
     </div> 
   <section>  
     <div class="ciervo">
-        <img src="img/alebrijes-en-oaxaca-940x626.jpg">    
+        <img style="width: 100%;" src="img/alebrijes-en-oaxaca-940x626.jpg">    
     </div>
     <aside class="t2">
         <h1>ALEBRIJES</h1>
         <h1>MEXICANOS</h1>
         <H3>Tallados en madera cumplen con las más</H3>
         <h3>altas exigencias en diseño</h3><br><br>
-        <button style="background-color: #D40032; border:solid white 3px; border-radius: 20px;">
-         <a style="color: white" href="#hastupedido1">
-            Has tu pedido
-         </a>   
-        </button>
+        <button class="btnrojo">Has tu pedido</button>
     </aside>
   </section>
   <section>
@@ -116,14 +51,10 @@
         <h1>CREATIVIDAD E</h1>
         <h1>IMAGINACIÓN</h1>
         <h3>Un sueño hecho realidad</h3>
-        <button style="background-color: #D40032;  border:solid white 3px; border-radius: 20px;">
-        <a style="color: white;" href="#hastupedido2">
-         Has tu pedido
-        </a>
-        </button>
+        <button class="btnrojo">Has tu pedido</button>
     </div>
     <aside class="armadillo">
-        <img width="650px" src="img/voces4.jpg">
+        <img style="width: 100%;" src="img/voces4.jpg">
     </aside>
   </section>  
     <footer style="border-top: 8px solid #EDEDED;">
